@@ -1,0 +1,29 @@
+baseURL: 'http://127.0.0.1:1313'
+title: featherw
+theme: hugo-theme-ladder
+description: 'A fast, clean Hugo theme'
+homepage: 'http://127.0.0.1:1313/blog'
+defaultContentLanguage: 'zh'
+paginate: 10
+params:
+  options:
+    showDarkMode: true
+    enableImgZooming: true
+    enableMultiLang: true
+  darkModeTheme: data-dark-mode
+  #darkModeTheme: icy-dark-mode
+languages:
+  zh:
+    languageName: 中
+    menu:
+      main:
+        - name: 文章
+          url: /blog
+          weight: 1
+        - name: 分类
+          url: /tags
+          weight: 2
+taxonomies:
+  series: series
+  tag: tags
+
