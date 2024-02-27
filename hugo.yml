@@ -1,8 +1,8 @@
-baseURL: 'http://127.0.0.1:1313'
+baseURL: 'https://featherW.github.io'
 title: featherw
 theme: hugo-theme-ladder
 description: 'A fast, clean Hugo theme'
-homepage: 'http://127.0.0.1:1313/blog'
+homepage: 'https://featherW.github.io/blog'
 defaultContentLanguage: 'zh'
 paginate: 10
 params:
